@@ -1,0 +1,5 @@
+-> replace float angle = (PI / 180.0) * (float)__angle;
+to float rad = (float)__angle * (PI / 180.0);
+
+-> replace math function e.g. squar_rt with static __inline__ square_rt() {};
+-> replace squar with static __inline__ square() {}
